@@ -21,5 +21,3 @@ ThemeData getLightTheme() {
         secondary: AppColor.primary,
       ));
 }
-
-

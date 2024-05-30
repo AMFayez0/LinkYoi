@@ -9,7 +9,6 @@ export 'app_color.dart';
 abstract class AppFont {
   static TextStyle get _style => GoogleFonts.cairo();
 
-
   static TextStyle get font20W700Primary => _style.copyWith(
         fontSize: 20.sp,
         fontWeight: FontWeight.w700,
@@ -25,5 +24,4 @@ abstract class AppFont {
   static TextStyle get font12Regular => _style.copyWith(
         fontSize: 12.sp,
       );
-
 }
